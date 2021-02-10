@@ -118,9 +118,7 @@ Testing on a bigger maze and a higher number of layout iterations is another thi
 
 All in all this was an interesting project. Especially the OpenCV part. We learned a lot about image processing which can help us in the future.
 
-
-![enter image description here](https://github.com/ShaheerSajid/OpenCV-Maze-Solving/blob/main/MazeSolver.mp4)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUyMjM4ODgsMjAyNTQ0NTE1NywyMD
+eyJoaXN0b3J5IjpbLTE0Mjg3NzA3OTcsMjAyNTQ0NTE1NywyMD
 E1NTMyNzUxXX0=
 -->
