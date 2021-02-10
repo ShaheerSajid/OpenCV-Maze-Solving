@@ -28,12 +28,12 @@ The problem of solving a maze usually occurs in robot navigation where the start
 
 The complete program was written in C++.
 
-**Toolchain:**
+#### Toolchain
  - Visual Studio 2017
  - OpenCV libraries for visual studio
  
 
-**Our solution consists of 4 main steps:**
+#### Our solution consists of 4 main steps
  - Taking a picture of maze
  - Extracting features (Start/End point, Open/Closed path)
  - Applying recursion
@@ -118,5 +118,5 @@ Testing on a bigger maze and a higher number of layout iterations is another thi
 
 All in all this was an interesting project. Especially the OpenCV part. We learned a lot about image processing which can help us in the future.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4NDM1OTYwLDIwMTU1MzI3NTFdfQ==
+eyJoaXN0b3J5IjpbLTE2Mzc5Nzg2NzgsMjAxNTUzMjc1MV19
 -->
