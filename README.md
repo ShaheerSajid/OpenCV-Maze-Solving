@@ -27,7 +27,7 @@ Scope of problem:
 
 The problem of solving a maze usually occurs in robot navigation where the starting and ending paths have hurdles in between. Moreover, if there are multiple paths present to the end point then finding the shortest path is essential considering cost and time. Other than robot navigation this problem is also identified in terrain where some paths are available while others are not.
 
-**Implementation:**
+## Implementation
 
 The complete program was written in C++.
 
@@ -38,7 +38,6 @@ Visual Studio 2017
 OpenCV libraries for visual studio
 
 Our solution consists of 4 main steps:
-
 Taking a picture of maze
 
 Extracting features (Start/End point, Open/Closed path)
@@ -47,7 +46,7 @@ Applying recursion
 
 Applying A*
 
-Summary of Operation:
+## Summary of Operation
 
 The picture was taken using a USB camera and then loaded into a type matrix variable for processing. The image was then converted to HSV colour space and the thresh-holds were set using slider bars for Hue, Saturation and Value. The resulting image was a binary image showing the blocked with white and open with black. This image was then read block by block and converted into a 10 by 13 matrix of 1’s and 0’s. 0 for blocked path and 1 for open path.
 
@@ -57,7 +56,7 @@ A* method is a special case of Dijkstra’s path finding algorithm. A shortest p
 
 The number of cells traversed is then displayed for both algorithms for comparison.
 
-Data structures used:
+## Data structures used
 
 **Singly Linked List:** This was used to store coordinates. As we required constant addition and removal of points, a linked list was used.
 
@@ -71,24 +70,24 @@ Data structures used:
 
 The screen shots are attached on the following pages.
 
-Maze Picture:
+### Maze Picture:
 
 ![enter image description here](https://github.com/ShaheerSajid/OpenCV-Maze-Solving/blob/main/images/Picture1.png)
 
-Extracted Path:
+### Extracted Path:
 
 ![enter image description here](https://github.com/ShaheerSajid/OpenCV-Maze-Solving/blob/main/images/Picture2.png)
 
-Recursion:
+### Recursion:
 
 ![enter image description here](https://github.com/ShaheerSajid/OpenCV-Maze-Solving/blob/main/images/Picture3.png)
 
-A*:
+### A*:
 
 ![enter image description here](https://github.com/ShaheerSajid/OpenCV-Maze-Solving/blob/main/images/Picture4.png)
 
 
-**Results:**
+## Results
 
 We found out that the A* algorithm is definitely more efficient than recursion for a number of reasons.
 
@@ -100,7 +99,7 @@ A* does not always find the shortest path, but it does so in the least time, due
 
 Recursion does this in much slower manner. The efficiency of recursion highly depends on the recursive sequence and the layout of maze considering the location of starting and ending points.
 
-**Discussion and Conclusion:**
+## Discussion and Conclusion
 
 Implementing A* proved to be a problem. We first did it with dynamic arrays and implemented a stack instead of the binary tree. It gave unpredictable results.
 
@@ -126,5 +125,5 @@ Testing on a bigger maze and a higher number of layout iterations is another thi
 
 All in all this was an interesting project. Especially the OpenCV part. We learned a lot about image processing which can help us in the future.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjA5NTk1MTldfQ==
+eyJoaXN0b3J5IjpbLTg3ODY3NzE3MV19
 -->
