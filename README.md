@@ -1,19 +1,16 @@
 # OpenCV-Maze-Solving
-Solving a maze using OpenCV and path finding algorithms<![endif]-->
 
-**Maze Detection and Solving using OpenCV**
-
-**Abstract :**
+## Abstract 
 
 In this project a maze layout is placed under a camera. After taking the picture, the image is processed using OpenCV to extract the features of the maze which includes starting/ending points and open/closed paths. Then two separate algorithms: recursion and A* algorithm are applied and the efficiency of each algorithm is compared.
 
-**Introduction:**
+## Introduction
 
-Problem Statement:
+**Problem Statement:**
 
 **_“How might we implement and compare recursion with A* algorithm in solving a given maze layout? Moreover, how might we determine the credibility of both programs?”_**
 
-Controls:
+**Controls:**
 
 Maze with single starting and ending point
 
@@ -23,7 +20,7 @@ Maze layout developed on a grid of 10 by 13 cells.
 
 Similar layout for both algorithms
 
-Scope of problem:
+**Scope of problem:**
 
 The problem of solving a maze usually occurs in robot navigation where the starting and ending paths have hurdles in between. Moreover, if there are multiple paths present to the end point then finding the shortest path is essential considering cost and time. Other than robot navigation this problem is also identified in terrain where some paths are available while others are not.
 
@@ -31,12 +28,12 @@ The problem of solving a maze usually occurs in robot navigation where the start
 
 The complete program was written in C++.
 
-### Toolchain
+** Toolchain**
  - Visual Studio 2017
  - OpenCV libraries for visual studio
+ 
 
-Our solution consists of 4 main steps:
-
+**Our solution consists of 4 main steps:**
  - Taking a picture of maze
  - Extracting features (Start/End point, Open/Closed path)
  - Applying recursion
@@ -121,5 +118,5 @@ Testing on a bigger maze and a higher number of layout iterations is another thi
 
 All in all this was an interesting project. Especially the OpenCV part. We learned a lot about image processing which can help us in the future.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjE2ODk1NCwyMDE1NTMyNzUxXX0=
+eyJoaXN0b3J5IjpbMTgxOTg4NDc2OCwyMDE1NTMyNzUxXX0=
 -->
