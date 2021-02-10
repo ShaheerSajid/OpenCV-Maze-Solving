@@ -42,16 +42,6 @@ Our solution consists of 4 main steps:
  - Applying recursion
  - Applying A*
 
-## Summary of Operation
-
-The picture was taken using a USB camera and then loaded into a type matrix variable for processing. The image was then converted to HSV colour space and the thresh-holds were set using slider bars for Hue, Saturation and Value. The resulting image was a binary image showing the blocked with white and open with black. This image was then read block by block and converted into a 10 by 13 matrix of 1’s and 0’s. 0 for blocked path and 1 for open path.
-
-Ready for application of path finding algorithms the program asks user for the algorithm to be deployed. If recursion then the program first adds the starting point into a linked list. One for each x and y coordinate. The program then looks for open cells in all four directions of the point. The preference was set to North, East, West and South. If it finds an open cell, it adds that to the linked lists and flags that point. The program keeps adding open paths till it finds a dead end or it reaches the destination. If its a dead end then it back traverses while removing those points from the lists. It does so such that in the end only the path to destination remains. Recursion is brute force method, that is why we chose it because it will give maximum traversing time and path in most cases.
-
-A* method is a special case of Dijkstra’s path finding algorithm. A shortest path tree is created while traversing through the cells using heuristics. Each cell is assigned a cost value (Weight). The minimum cost value in the vicinity of the current cell is added into the set of closed path. This is done till the end point is reached and the path is retrieved form the closed path list. This method was used as it is the best one to find shortest path.
-
-The number of cells traversed is then displayed for both algorithms for comparison.
-
 ## Data structures used
 
 **Singly Linked List:** This was used to store coordinates. As we required constant addition and removal of points, a linked list was used.
@@ -64,7 +54,17 @@ The number of cells traversed is then displayed for both algorithms for comparis
 
 **Pair:** Used to pair up the two coordinates x and y into a single variable
 
-The screen shots are attached on the following pages.
+
+## Summary of Operation
+
+The picture was taken using a USB camera and then loaded into a type matrix variable for processing. The image was then converted to HSV colour space and the thresh-holds were set using slider bars for Hue, Saturation and Value. The resulting image was a binary image showing the blocked with white and open with black. This image was then read block by block and converted into a 10 by 13 matrix of 1’s and 0’s. 0 for blocked path and 1 for open path.
+
+Ready for application of path finding algorithms the program asks user for the algorithm to be deployed. If recursion then the program first adds the starting point into a linked list. One for each x and y coordinate. The program then looks for open cells in all four directions of the point. The preference was set to North, East, West and South. If it finds an open cell, it adds that to the linked lists and flags that point. The program keeps adding open paths till it finds a dead end or it reaches the destination. If its a dead end then it back traverses while removing those points from the lists. It does so such that in the end only the path to destination remains. Recursion is brute force method, that is why we chose it because it will give maximum traversing time and path in most cases.
+
+A* method is a special case of Dijkstra’s path finding algorithm. A shortest path tree is created while traversing through the cells using heuristics. Each cell is assigned a cost value (Weight). The minimum cost value in the vicinity of the current cell is added into the set of closed path. This is done till the end point is reached and the path is retrieved form the closed path list. This method was used as it is the best one to find shortest path.
+
+The number of cells traversed is then displayed for both algorithms for comparison.
+
 
 ### Maze Picture:
 
@@ -121,5 +121,5 @@ Testing on a bigger maze and a higher number of layout iterations is another thi
 
 All in all this was an interesting project. Especially the OpenCV part. We learned a lot about image processing which can help us in the future.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTUzMjc1MV19
+eyJoaXN0b3J5IjpbMjEzNjE2ODk1NCwyMDE1NTMyNzUxXX0=
 -->
