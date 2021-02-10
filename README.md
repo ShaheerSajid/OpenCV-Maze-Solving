@@ -15,9 +15,9 @@ Problem Statement:
 
 Controls:
 
-<![if !supportLists]>l <![endif]>Maze with single starting and ending point
+Maze with single starting and ending point
 
-<![if !supportLists]>l <![endif]>Multiple paths to end point
+Multiple paths to end point
 
 Maze layout developed on a grid of 10 by 13 cells.
 
@@ -72,19 +72,18 @@ Data structures used:
 The screen shots are attached on the following pages.
 
 Maze Picture:
-
-
+![enter image description here](https://github.com/ShaheerSajid/OpenCV-Maze-Solving/blob/main/images/Picture1.png)
 
 Extracted Path:
-
+![enter image description here](https://github.com/ShaheerSajid/OpenCV-Maze-Solving/blob/main/images/Picture2.png)
 
 
 Recursion:
-
+![enter image description here](https://github.com/ShaheerSajid/OpenCV-Maze-Solving/blob/main/images/Picture3.png)
 
 
 A*:
-
+![enter image description here](https://github.com/ShaheerSajid/OpenCV-Maze-Solving/blob/main/images/Picture4.png)
 
 
 **Results:**
@@ -125,5 +124,5 @@ Testing on a bigger maze and a higher number of layout iterations is another thi
 
 All in all this was an interesting project. Especially the OpenCV part. We learned a lot about image processing which can help us in the future.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzg3MTA2M119
+eyJoaXN0b3J5IjpbNDQ2MTc1OTQxXX0=
 -->
