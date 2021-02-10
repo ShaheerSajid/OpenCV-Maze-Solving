@@ -112,11 +112,11 @@ Maze lighting conditions proved to be a major problem in extracting features
 
 By adding features in negation to the above mentioned problems we can open multiple dimensions to our project. Further development especially in maze extraction is necessary to cater for lighting conditions. Better hardware can be used for the maze layout platform. A robot can be constructed to receive the coordinates wirelessly.
 
-We didn’t include a method to measure time complexity. It is yet another feature we should have added to measure behaviour of bot algorithms.
+We didn’t include a method to measure time complexity. It is yet another feature we should have added to measure behavior of bot algorithms.
 
 Testing on a bigger maze and a higher number of layout iterations is another thing which is due.
 
 All in all this was an interesting project. Especially the OpenCV part. We learned a lot about image processing which can help us in the future.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgxMDE0OTIsMjAxNTUzMjc1MV19
+eyJoaXN0b3J5IjpbMjAyNTQ0NTE1NywyMDE1NTMyNzUxXX0=
 -->
